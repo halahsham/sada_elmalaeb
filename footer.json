@@ -1,0 +1,152 @@
+[
+    {
+        "logo": "logo.jpg",
+        "description": "test",
+        "title": "",
+        "form": false,
+        "items": [],
+        "icons": [
+            {
+                "id": 4,
+                "link": "football",
+                "img": "football.png"
+            },
+            {
+                "id": 5,
+                "link": "basketball",
+                "img": "bascketball.png"
+            },
+            {
+                "id": 6,
+                "link": "Vollyball.png",
+                "img": "vollyball.png"
+            }
+        ]
+    },
+    {
+        "logo": "",
+        "title": "النشرة الإخبارية",
+        "description": "الحصول على الأخبار اليومية الجديدة\n                        .مباشرة إلى البريد الإلكتروني الخاص بك",
+        "form": true,
+        "items": [],
+        "icons": [
+            {
+                "link": "halah.ah95@hotmail.com",
+                "img": "email.png"
+            },
+            {
+                "link": "09452365898",
+                "img": "whatsapp"
+            }
+        ],
+        "contact": [
+            {
+                "link": "facebook.com",
+                "img": "facebook"
+            },
+            {
+                "link": "twitter.come",
+                "img": "twitter"
+            },
+            {
+                "link": "instegram.com",
+                "img": "instegram"
+            },
+            {
+                "link": "youtube.com",
+                "img": "youtube"
+            }
+        ]
+    },
+    {
+        "logo": "",
+        "title": "القوائم",
+        "description": "",
+        "form": false,
+        "contact": [],
+        "icons": [],
+        "items": [
+            {
+                "icon": "",
+                "item": "تحقيقات",
+                "id": 6
+            },
+            {
+                "icon": "",
+                "item": "نجوم الملاعب",
+                "id": 5
+            },
+            {
+                "icon": "",
+                "item": "صحافة رياضية",
+                "id": 4
+            },
+            {
+                "icon": "",
+                "item": "عربي وعالمي",
+                "id": 3,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            },
+            {
+                "icon": "",
+                "item": "صدى الخليج",
+                "id": 2,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            },
+            {
+                "icon": "",
+                "item": "صدى الرياضة",
+                "id": 1,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            }
+        ]
+    }
+]

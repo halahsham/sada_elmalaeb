@@ -1,89 +1,152 @@
-{
-	"info": {
-		"_postman_id": "42ea8b39-ace3-42a2-a684-e6c4756e52f1",
-		"name": "sada_elmalaeb",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": [
-		{
-			"name": "footer",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:8000/api/footer",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"footer"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:8000/api/addComment",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "comment",
-							"value": "hi again",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://127.0.0.1:8000/api/addComment/3",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"addComment",
-						"3"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://127.0.0.1:8000/api/allMagazines",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://127.0.0.1:8000/api/allMagazines",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"allMagazines"
-					]
-				}
-			},
-			"response": []
-		}
-	]
-}
+[
+    {
+        "logo": "logo.jpg",
+        "description": "test",
+        "title": "",
+        "form": false,
+        "items": [],
+        "icons": [
+            {
+                "id": 4,
+                "link": "football",
+                "img": "football.png"
+            },
+            {
+                "id": 5,
+                "link": "basketball",
+                "img": "bascketball.png"
+            },
+            {
+                "id": 6,
+                "link": "Vollyball.png",
+                "img": "vollyball.png"
+            }
+        ]
+    },
+    {
+        "logo": "",
+        "title": "النشرة الإخبارية",
+        "description": "الحصول على الأخبار اليومية الجديدة\n                        .مباشرة إلى البريد الإلكتروني الخاص بك",
+        "form": true,
+        "items": [],
+        "icons": [
+            {
+                "link": "halah.ah95@hotmail.com",
+                "img": "email.png"
+            },
+            {
+                "link": "09452365898",
+                "img": "whatsapp"
+            }
+        ],
+        "contact": [
+            {
+                "link": "facebook.com",
+                "img": "facebook"
+            },
+            {
+                "link": "twitter.come",
+                "img": "twitter"
+            },
+            {
+                "link": "instegram.com",
+                "img": "instegram"
+            },
+            {
+                "link": "youtube.com",
+                "img": "youtube"
+            }
+        ]
+    },
+    {
+        "logo": "",
+        "title": "القوائم",
+        "description": "",
+        "form": false,
+        "contact": [],
+        "icons": [],
+        "items": [
+            {
+                "icon": "",
+                "item": "تحقيقات",
+                "id": 6
+            },
+            {
+                "icon": "",
+                "item": "نجوم الملاعب",
+                "id": 5
+            },
+            {
+                "icon": "",
+                "item": "صحافة رياضية",
+                "id": 4
+            },
+            {
+                "icon": "",
+                "item": "عربي وعالمي",
+                "id": 3,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            },
+            {
+                "icon": "",
+                "item": "صدى الخليج",
+                "id": 2,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            },
+            {
+                "icon": "",
+                "item": "صدى الرياضة",
+                "id": 1,
+                "dropdown": [
+                    {
+                        "id": 4,
+                        "link": "football",
+                        "img": "football.png"
+                    },
+                    {
+                        "id": 5,
+                        "link": "basketball",
+                        "img": "bascketball.png"
+                    },
+                    {
+                        "id": 6,
+                        "link": "Vollyball.png",
+                        "img": "vollyball.png"
+                    }
+                ]
+            }
+        ]
+    }
+]
